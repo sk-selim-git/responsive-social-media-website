@@ -3,9 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SelimApp - Responsive Social Media Website Using HTML, CSS & JavaScript</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                SelimApp
+            </h2>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search for creators,inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="./image/profile-dp.jpg">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------Main--------------------- -->
+    <main>
+        <div class="container">
+            <!-- ---------------------Left----------------------- -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./image/profile-dp.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Sk Selim</h4>
+                        <p class="text-muted">
+                            @selim
+                        </p>
+                    </div>
+                </a>
+                <!-- ---------------Sidebar------------------------ -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-house"></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-compass"></i></span><h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="fa-solid fa-bell"><small class="notification-count">9+</small></i></span><h3>Notifications</h3>
+                        <!-- -------------Notification Popup------------------ -->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days AGO</small>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- -------------End Notification Popup------------------- -->
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="fa-solid fa-envelope"><small class="notification-count">6</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-chart-line"></i></span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-gear"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+                <!-- ------------------End Of Sidebar------------------ -->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!-- -------------------End Of Left---------------------------- -->
+
+
+            <!-- -------------------------Middle------------------------ -->
+            <div class="middle">
+                <!-- ------------------Stories-------------------------------- -->
+                 <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                   
+                    <!-- -----------------End Of Stories----------------- -->
+                     <form class="create-post">
+                        <div class="profile-photo">
+                            <img src="./image/img2.jpg">
+                        </div>
+                        <input type="text" placeholder="What's on your mind, Selim" id="create-post">
+                        <input type="submit" value="Post" class="btn btn-primary">
+                     </form>
+                    
+                 </div>
+
+
+
+            <div class="right">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sequi ad architecto sed et assumenda laboriosam inventore modi porro ducimus. Porro debitis cum ipsam, pariatur repudiandae sit aspernatur vitae numquam.
+                Pariatur quis dignissimos officiis, possimus voluptatum, nostrum doloribus tempora provident laudantium culpa quas blanditiis praesentium laboriosam deserunt, architecto illum. Cumque fugiat modi natus consequatur eum incidunt magni pariatur sequi sit?
+                Ipsum sequi quidem deleniti. Illum atque harum vitae laudantium culpa esse explicabo, ut consequuntur accusamus corrupti perferendis placeat eveniet reiciendis qui itaque doloribus repellat unde? Ullam asperiores a reprehenderit quo!
+                Est, fuga similique! Earum ad non alias aspernatur perspiciatis, labore consectetur vitae ducimus officia repellat in quisquam fugiat consequatur eos inventore quidem accusantium. Animi perspiciatis deleniti facere, itaque amet aliquam?
+                Minima nobis eius iste officia fugiat! Provident, voluptatibus amet? Odio nulla iste placeat provident ab accusantium repudiandae vero pariatur sed, doloribus maiores consequuntur aperiam et molestias velit. Sunt, ea ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero iure consectetur tempora dolore dignissimos repudiandae quasi nobis doloribus nam cum nisi ea, enim quos animi pariatur, recusandae, officiis minus!
+                Culpa, nostrum dolorem voluptates dolor provident optio ea at tempora velit nihil inventore impedit ducimus, recusandae dicta consequatur. Perferendis debitis voluptatibus ipsam dolorem. Modi rem quos aliquid. Dolores, ex asperiores?
+                Omnis reiciendis neque iusto sint totam quam necessitatibus dolor quod quia, deleniti incidunt praesentium veritatis voluptates modi quae soluta iure culpa! Non perferendis, aut harum distinctio quaerat error velit expedita.
+                Expedita molestiae ad rem, eaque laboriosam similique unde voluptas obcaecati non impedit veniam est sit consectetur maxime eveniet dignissimos dolores consequuntur nisi tempore esse delectus! Tempore fugit ratione cumque officia.
+                Non odit veritatis officia aut praesentium, ipsum incidunt dolore, deserunt impedit asperiores enim doloribus vero ipsam rem minima sint dolores aspernatur. Illum ipsam minus a, ullam animi odit sed dolor.
+                Architecto tenetur expedita, exercitationem autem culpa est soluta obcaecati. Nam accusantium molestias fugit voluptate veritatis molestiae quidem doloremque, voluptates corporis incidunt doloribus illum. Nihil modi cumque autem fuga accusamus id!
+                Voluptate molestias placeat debitis consectetur inventore quis, nisi nulla odit beatae quia cupiditate doloribus velit exercitationem alias laudantium. Dicta impedit itaque aut ipsa nemo unde maxime quisquam nobis quam pariatur.
+              m, perspiciatis mollitia optio hic dolore eaque totam sapiente corporis expedita! Id recusandae quidem in.
+                Modi atque itaque magni. Dolorum, culpa veniam assumenda nam reprehenderit rerum, fuga iusto maiores nisi ex quia iure corporis eius error aliquid saepe animi tenetur magnam suscipit inventore ea illum.
+                Veniam molestias eaque neque, deleniti architecto modi minus voluptatibus illo nulla dolorem debitis dolores in velit nesciunt fugiat adipisci suscipit ut quae! Velit rerum repellat magnam cumque provident deleniti praesentium.
+                Voluptates ipsa, quos consectetur voluptas itaque cupiditate possimus enim, omnis delectus beatae quod. Expedita eveniet facilis recusandae magni, sint vel distinctio iusto officiis corrupti tempore! Ea, officiis laboriosam. Praesentium, iure.
+                Excepturi, fugiat animi impedit dolore atque ea a, nisi omnis consectetur nulla reiciendis eaque. Officia soluta quos delectus doloribus voluptatem esse consectetur nisi necessitatibus corrupti praesentium quaerat est, rerum iste.
+                A eaque, id aperiam non commodi, minima dignissimos alias ipsum vel nam sequi sint illo, nesciunt cupiditate. Alias iure reiciendis eius. Expedita amet omnis nemo repellat dolor. Odit, laborum sit!
+                Officia, odio aspernatur nemo ad libero dolorem cumque? Ipsa praesentium quidem, similique alias cupiditate, fugit quam recusandae, ducimus vitae corrupti modi! Corrupti at ex nihil, quidem quo beatae facere repellat.
+                Perspiciatis similique consectetur animi debitis. Quos error nemo perferendis quo ex. Eos, ad in error quo placeat laborum, at nesciunt, facilis quae porro optio voluptate dignissimos autem dolorum reiciendis. Doloremque!
+                Ab iure ducimus odit, sint saepe sit mollitia commodi reprehenderit molestias illum recusandae quidem sed quod impedit repellendus nulla fuga. Minus ducimus nemo possimus accusamus eligendi officia quis. Magni, consequatur.
+                Architecto maxime exercitationem temporibus cumque laborum maiores itaque, tempora illo modi impedit quod ducimus quos rerum aliquid, autem assumenda repudiandae magnam tenetur minima pariatur cum. Nobis officia cum quis dignissimos.
+                Nemo laborum voluptatum ratione nulla nobis, tempore debitis eveniet quisquam beatae exercitationem asperiores accusamus quo totam ipsa maxime nisi ad expedita corrupti voluptatem placeat officia. Distinctio autem voluptatum illo deserunt!
+                Nemo perferendis provident eveniet. Neque assumenda laborum id similique quas hic aut voluptate quam tenetur corporis harum dolor aliquam quia sequi eos, sed qui eius consequuntur quo fugit excepturi. Dignissimos.
+                Eveniet nesciunt accusamus inventore officiis totam amet delectus, culpa facere fuga, aliquid consequatur qui maxime reprehenderit harum recusandae ratione nam saepe architecto iusto ducimus sit? Fugit esse odio illo veniam?
+            </div>
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
 </body>
-</html>
+</html> 
+
+
+
+<!-- 45.26 time -->
