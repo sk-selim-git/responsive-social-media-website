@@ -332,22 +332,22 @@ main .container .left .profile{
 }
 
 .middle .stories .story:nth-child(1){
-  background: url(./image/img2.jpg)no-repeat center center/cover;
+  background: url(./image/dhoni-story.heic)no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(2){
-  background: url(./image/img2.jpg)no-repeat center center/cover;
+  background: url(./image/ronaldo-story.jpg)no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(3){
-  background: url(./image/img2.jpg)no-repeat center center/cover;
+  background: url(./image/csk-story.heic)no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(4){
-  background: url(./image/img2.jpg)no-repeat center center/cover;
+  background: url(./image/virat-story.jpg)no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(5){
-  background: url(./image/img2.jpg)no-repeat center center/cover;
+  background: url(./image/messi-story.jpg)no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(6){
-  background: url(./image/img2.jpg)no-repeat center center/cover;
+  background: url(./image/ind-story.jpg)no-repeat center center/cover;
 }
 
 .middle .story .profile-photo{
